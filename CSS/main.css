@@ -338,6 +338,12 @@ a:visited {
 .thumbnail {
     width: 540px;
     height: 295px;
+    transition-duration: 0.5s;
+}
+
+.thumbnail:hover {
+    transition-duration: 0.5s;
+    transform: scale(1.05);
 }
 
 .projectTitle {
